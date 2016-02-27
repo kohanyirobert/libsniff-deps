@@ -1,4 +1,4 @@
-# libsniff-deps
+# libsniff-ffmpeg
 
 ## ffmpeg 3.0
 
