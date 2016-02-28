@@ -1,5 +1,19 @@
 {
   "name": "libsniff-ffmpeg",
   "private": true,
-  "version": "0.0.1"
+  "version": "0.0.1",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "debug": "^2.2.0",
+    "decompress": "^3.0.0",
+    "mkdirp": "^0.5.1",
+    "mocha": "^2.4.5",
+    "request": "^2.69.0",
+    "rimraf": "^2.5.2",
+    "tmp": "0.0.28",
+    "vargs-callback": "^0.2.4"
+  }
 }
