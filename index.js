@@ -5,7 +5,7 @@ var vargs = require('vargs-callback')
 var rimraf = require('rimraf')
 var request = require('request')
 var fs = require('fs')
-var package = require('./package.json')
+var package = require('libsniff-ffmpeg-binaries/package.json')
 
 var baseUrl = 'https://github.com/kohanyirobert/'
 baseUrl += package.name

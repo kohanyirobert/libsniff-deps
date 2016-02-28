@@ -6,6 +6,7 @@
     "test": "mocha test.js"
   },
   "dependencies": {
+    "libsniff-ffmpeg-binaries": "git://github.com/kohanyirobert/libsniff-ffmpeg-binaries.git#v0.0.1",
     "decompress": "^3.0.0",
     "mkdirp": "^0.5.1",
     "request": "^2.69.0",
