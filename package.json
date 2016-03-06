@@ -7,11 +7,7 @@
   },
   "dependencies": {
     "libsniff-ffmpeg-binaries": "git://github.com/kohanyirobert/libsniff-ffmpeg-binaries.git#v0.0.1",
-    "decompress": "^3.0.0",
-    "mkdirp": "^0.5.1",
-    "request": "^2.69.0",
-    "rimraf": "^2.5.2",
-    "vargs-callback": "^0.2.4"
+    "libsniff-download": "git://github.com/kohanyirobert/libsniff-download.git#v0.0.1"
   },
   "devDependencies": {
     "chai": "^3.5.0",
