@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "libsniff-ffmpeg-binaries": "git://github.com/kohanyirobert/libsniff-ffmpeg-binaries.git#v0.0.1",
-    "libsniff-download": "git://github.com/kohanyirobert/libsniff-download.git#v0.0.1"
+    "libsniff-download": "git://github.com/kohanyirobert/libsniff-download.git#v0.0.2"
   },
   "devDependencies": {
     "chai": "^3.5.0",
