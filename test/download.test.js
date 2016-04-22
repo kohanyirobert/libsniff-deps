@@ -19,12 +19,12 @@ describe('download.js', function() {
       download(options, function(downloads) {
         assert(downloads.length === options.targets.length)
         downloads.forEach(function(download) {
-          assert(options.targets.indexOf(download.target) > -1)
+          assert(options.targets.indexOf(download.target) != -1)
           assert(download.files.length === 2)
           download.files.forEach(function(file) {
             var destPath = path.resolve(path.join(options.dir, download.target))
             assert(file.indexOf(destPath) === 0)
-            assert(file.indexOf('ffmpeg') > -1 || file.indexOf('ffprobe') > -1)
+            assert(file.indexOf('ffmpeg') != -1 || file.indexOf('ffprobe') != -1)
           })
         })
         done()
